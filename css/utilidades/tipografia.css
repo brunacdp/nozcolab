@@ -1,0 +1,47 @@
+/* font: peso tamanho/AlturaDeLinha "família", similares; */
+
+.font1-xxl {
+  font: 400 4rem/1.125 "Pacifico", cursive;
+}
+.font1-xl {
+  font: 400 3rem/1.25 "Pacifico", cursive;
+}
+
+.font2-xl {
+  font: 700 3rem/1.25 "Roboto", sans-serif;
+}
+
+.font1-l {
+  font: 400 2.25rem/1.111 "Pacifico", cursive;
+}
+
+.font2-l {
+  font: 700 2.25rem/1.111 "Roboto", sans-serif;
+}
+
+.font2-m-b {
+  font: 700 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.font2-m {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.font2-s {
+  font: 400 1.25rem/1.2 "Roboto", sans-serif;
+}
+
+.font2-s-b {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.font2-xs,
+.font2-xs-b {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.font2-xs-b {
+  font-weight: 700;
+  text-transform: uppercase;
+}
