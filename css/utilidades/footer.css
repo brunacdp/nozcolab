@@ -1,0 +1,62 @@
+.footer-conteudo {
+  display: grid;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  gap: 40px;
+}
+
+.footer-dados {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+footer span {
+  display: block;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 16px;
+}
+
+footer h3 {
+  padding-bottom: 22px;
+}
+
+footer li {
+  padding-bottom: 24px;
+}
+
+footer li a:hover,
+footer li a:active,
+footer li a:focus {
+  color: var(--color08);
+  font-weight: bold;
+}
+
+footer li a:visited {
+  color: var(--color08);
+}
+
+/* @media (max-width: 690px) {
+  .footer-logo {
+    display: none;
+  }
+} */
+
+@media (max-width: 465px) {
+  .footer-contato,
+  .footer-infos {
+    padding-top: 40px;
+  }
+  footer li {
+    padding-bottom: 20px;
+  }
+  footer h3 {
+    padding-bottom: 0px;
+  }
+}

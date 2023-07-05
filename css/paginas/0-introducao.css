@@ -1,0 +1,20 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0px 40px;
+  place-items: center;
+  padding-bottom: 60px;
+}
+
+.sobre h1 {
+  padding-bottom: 32px;
+}
+
+.sobre p {
+  max-width: 365px;
+  padding-bottom: 8px;
+}
+
+.link:hover {
+  color: var(--color08);
+}

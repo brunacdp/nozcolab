@@ -2,3 +2,8 @@
 @import "./utilidades/geral.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
+@import "./utilidades/header.css";
+@import "./utilidades/footer.css";
+
+/* paginas */
+@import "./paginas/0-introducao.css";
