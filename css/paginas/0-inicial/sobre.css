@@ -1,0 +1,44 @@
+/* sobre */
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0px 40px;
+  place-items: center;
+  padding-bottom: 60px;
+}
+
+.sobre h1 {
+  padding-bottom: 32px;
+}
+
+.sobre p {
+  padding-bottom: 8px;
+}
+
+@media (max-width: 850px) {
+  .sobre h1 {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .sobre h1 {
+    padding-bottom: 16px;
+    font-size: 2.5rem;
+  }
+  .sobre a {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sobre h1 {
+    font-size: 2rem;
+  }
+  .introducao img {
+    display: none;
+  }
+}

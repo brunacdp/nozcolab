@@ -39,7 +39,19 @@ header li a:visited {
   color: var(--color08);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
+  header {
+    padding-bottom: 60px;
+  }
+  .menu {
+    place-content: center;
+  }
+}
+
+@media (max-width: 750px) {
+  header a img {
+    padding-bottom: 20px;
+  }
   header ul {
     gap: 20px;
     padding-left: 0px;
@@ -47,13 +59,20 @@ header li a:visited {
   header {
     padding-bottom: 40px;
   }
+  header ul li {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: var(--color01);
+  }
+  header ul {
+    justify-content: space-around;
+  }
 }
 
-@media (max-width: 350px) {
-  header {
-    padding-bottom: 40px;
-  }
-  header ul li {
-    padding: 4px 0px;
+@media (max-width: 370px) {
+  header ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

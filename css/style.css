@@ -5,5 +5,7 @@
 @import "./utilidades/header.css";
 @import "./utilidades/footer.css";
 
-/* paginas */
-@import "./paginas/0-introducao.css";
+/* 0-inicial */
+@import "./paginas/0-inicial/sobre.css";
+@import "./paginas/0-inicial/espaco.css";
+@import "./paginas/0-inicial/avaliacao.css";
