@@ -9,3 +9,6 @@
 @import "./paginas/0-inicial/sobre.css";
 @import "./paginas/0-inicial/espaco.css";
 @import "./paginas/0-inicial/avaliacao.css";
+
+/* 1-quem-somos */
+@import "./paginas/1-quem-somos/historia.css";
