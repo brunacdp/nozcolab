@@ -14,3 +14,6 @@
 @import "./paginas/1-quem-somos/historia.css";
 @import "./paginas/1-quem-somos/missao.css";
 @import "./paginas/1-quem-somos/midia.css";
+
+/* 2-nosso-espaço */
+@import "./paginas/2-nosso-espaco/estrutura.css";

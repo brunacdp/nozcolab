@@ -1,0 +1,42 @@
+.nosso-espaco {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 160px;
+}
+
+.estrutura-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-bottom: 120px;
+  gap: 0px 73px;
+  align-items: end;
+  justify-items: center;
+}
+
+.estrutura-texto h2 {
+  padding-bottom: 32px;
+}
+
+.estrutura-texto p {
+  max-width: 36ch;
+}
+
+.estrutura-conteudo img {
+  max-width: 760px;
+}
+
+.estrutura-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 120px;
+  gap: 0px 40px;
+}
+
+.estrutura-img img {
+  padding-bottom: 8px;
+}
+
+.estrutura-bg {
+  background-color: var(--color03);
+  box-shadow: inset 0 340px var(--white), inset 0 -308px var(--white);
+}
