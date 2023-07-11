@@ -1,0 +1,76 @@
+.missao-box {
+  background-image: url("../../../img/missao-fundo.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  max-width: 1162px;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+  place-items: center;
+}
+
+/* .missao-box::before {
+  content: "";
+  width: 4px;
+  height: 250px;
+  background-color: var(--color07);
+  position: absolute;
+  top: 1435px;
+  left: 630px;
+}
+.missao-box::after {
+  content: "";
+  width: 4px;
+  height: 250px;
+  background-color: var(--color07);
+  position: absolute;
+  top: 1435px;
+  left: 972px;
+} */
+
+.missao-box h2 {
+  text-align: center;
+  padding-top: 86px;
+  padding-bottom: 50px;
+}
+
+.missao-box p {
+  max-width: 20ch;
+  text-align: center;
+  padding-bottom: 86px;
+}
+
+@media (max-width: 950px) {
+  .missao-box {
+    background-image: none;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    background: var(--color03);
+    padding-top: 60px;
+  }
+  .missao-box h2 {
+    padding-top: 0px;
+    padding-bottom: 12px;
+  }
+  .missao-box p {
+    padding-bottom: 60px;
+    max-width: 50ch;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .missao-box {
+    background-color: var(--white);
+  }
+  .missao-box h2 {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .missao-box p {
+    font-size: 1rem;
+    text-align: left;
+    padding-bottom: 32px;
+  }
+}
