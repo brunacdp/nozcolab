@@ -18,3 +18,6 @@
 /* 2-nosso-espaço */
 @import "./paginas/2-nosso-espaco/estrutura.css";
 @import "./paginas/2-nosso-espaco/eventos.css";
+
+/* 3-brechós */
+@import "./paginas/3-brechos/brechos.css";

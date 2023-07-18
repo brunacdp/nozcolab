@@ -1,0 +1,113 @@
+.brechos {
+  text-align: center;
+  place-items: center;
+  margin-bottom: 160px;
+}
+
+.brechos h1 {
+  padding-bottom: 32px;
+}
+
+.brechos p {
+  max-width: 75ch;
+  margin: 0 auto;
+}
+
+.frida::before,
+.dab::before {
+  content: "";
+  border-radius: 16px;
+  border: 4px dashed var(--color06);
+  position: absolute;
+  width: 1160px;
+  height: 660px;
+}
+
+.frida {
+  background-color: var(--color03);
+  max-width: 1160px;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  place-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dab {
+  background-color: var(--color03);
+  max-width: 1160px;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  place-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dab-foto {
+  grid-area: 1/1;
+}
+.dab-conteudo {
+  grid-column: 2/2;
+}
+
+.frida-conteudo,
+.dab-conteudo {
+  display: grid;
+  place-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.frida .frida-logo,
+.dab .dab-logo {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 50%;
+}
+
+.frida h2,
+.dab h2 {
+  padding-bottom: 44px;
+}
+
+.frida p,
+.dab p {
+  max-width: 44ch;
+  padding-bottom: 24px;
+}
+
+.frida,
+.dab {
+  margin-bottom: 120px;
+}
+
+.frida .frida-foto {
+  border-radius: 0px 16px 16px 0px;
+}
+
+.dab .dab-foto {
+  border-radius: 16px 0px 0px 16px;
+}
+
+@media (max-width: 1160px) {
+  .frida::before,
+  .dab::before {
+    border: 0px;
+  }
+  .frida,
+  .dab {
+    background-color: var(--white);
+  }
+  .frida .frida-foto,
+  .dab .dab-foto {
+    border-radius: 16px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .frida .frida-logo,
+  .dab .dab-logo {
+    max-width: 50%;
+  }
+}
