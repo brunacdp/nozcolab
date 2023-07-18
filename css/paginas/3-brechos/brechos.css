@@ -114,14 +114,15 @@
 
 @media (max-width: 850px) {
   .brechos {
-    text-align: start;
+    place-items: center;
+    margin-bottom: 60px;
   }
   .brechos h1 {
     font-size: 3rem;
     padding-left: 20px;
   }
   .brechos p {
-    margin: 0px;
+    margin: 0 auto;
     padding-left: 20px;
   }
   .frida,
