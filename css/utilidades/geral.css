@@ -50,6 +50,7 @@ h1 {
   padding: 16px 20px;
   border-radius: 8px;
   border: 0px;
+  cursor: pointer;
 }
 
 .link {

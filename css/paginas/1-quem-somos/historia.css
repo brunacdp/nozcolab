@@ -53,6 +53,10 @@
   .historia-texto span {
     padding-bottom: 24px;
   }
+  .historia-img {
+    object-fit: cover;
+    height: 100%;
+  }
 }
 
 @media (max-width: 850px) {

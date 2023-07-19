@@ -1,0 +1,46 @@
+.faca-parte h1 {
+  display: grid;
+  place-content: center;
+  padding-bottom: 160px;
+}
+
+.form-bg {
+  background-color: var(--color03);
+  border-radius: 16px;
+  max-width: 760px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.form-intro h2 {
+  padding-top: 80px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.form-intro p {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.form-faca-parte {
+  margin: 0 auto;
+  padding-bottom: 80px;
+  max-width: 580px;
+}
+
+.form-nome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 20px;
+}
+
+.form-radio {
+  display: grid;
+  margin-bottom: 20px;
+}
+.form-loja,
+.form-feiras {
+  display: flex;
+}

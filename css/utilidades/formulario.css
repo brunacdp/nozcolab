@@ -1,0 +1,35 @@
+form label {
+  display: block;
+  padding-bottom: 4px;
+}
+
+form input:not(form input[type="radio"]),
+form textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--color12);
+}
+
+form input:focus,
+form input[type="text"]:focus,
+form textarea:focus {
+  outline: none;
+  border: 2px dashed var(--color06);
+}
+
+form p {
+  margin-bottom: 12px;
+}
+
+.form-faca-parte .botao {
+  color: var(--color01);
+  background-color: var(--color12);
+}
+
+.form-faca-parte .botao:hover {
+  background-color: var(--color09);
+}

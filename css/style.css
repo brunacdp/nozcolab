@@ -4,6 +4,7 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/header.css";
 @import "./utilidades/footer.css";
+@import "./utilidades/formulario.css";
 
 /* 0-inicial */
 @import "./paginas/0-inicial/sobre.css";
@@ -24,3 +25,6 @@
 
 /* 4-produtos */
 @import "./paginas/4-produtos/produtos.css";
+
+/* 5-faça-parte */
+@import "./paginas/5-faca-parte/faca-parte.css";
