@@ -30,8 +30,12 @@
 }
 
 .avaliacao .botao {
-  background-color: var(--color05);
+  background-color: var(--color03);
   margin-bottom: 180px;
+}
+
+.avaliacao .botao:hover {
+  background-color: var(--color05);
 }
 
 @media (max-width: 850px) {
@@ -80,15 +84,12 @@
     background-color: inherit;
     display: inline-block;
     color: currentColor;
-    font: 700 1rem/1.5 "Roboto", sans-serif;
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    text-decoration: underline;
     text-transform: uppercase;
   }
 
-  .avaliacao .botao:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: currentColor;
+  .avaliacao .botao:hover {
+    color: var(--color08);
   }
 }
