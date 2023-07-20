@@ -12,6 +12,15 @@
   margin-bottom: 120px;
 }
 
+.form-intro {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-intro div {
+  padding-bottom: 40px;
+}
+
 .form-intro h2 {
   padding-top: 80px;
   padding-bottom: 48px;
@@ -27,6 +36,8 @@
 .form-faca-parte {
   margin: 0 auto;
   padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
   max-width: 580px;
 }
 
@@ -43,4 +54,63 @@
 .form-loja,
 .form-feiras {
   display: flex;
+}
+
+@media (max-width: 850px) {
+  .faca-parte h1 {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .faca-parte h1 {
+    padding-bottom: 40px;
+  }
+  .form-intro h2 {
+    padding-top: 40px;
+    padding-bottom: 24px;
+  }
+  .form-intro,
+  .form-faca-parte {
+    place-content: start;
+  }
+}
+
+@media (max-width: 750px) {
+  .form-intro h2 {
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+  .form-intro p {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .form-bg {
+    background-color: var(--white);
+    margin-bottom: 0px;
+  }
+  .faca-parte h1 {
+    place-content: start;
+  }
+  .form-intro h2 {
+    padding-top: 0px;
+    text-align: start;
+  }
+
+  .form-intro,
+  .form-faca-parte {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .form-faca-parte .botao {
+    background-color: var(--color03);
+    border: 1px solid var(--color12);
+    color: var(--color12);
+  }
+  .form-faca-parte .botao:hover {
+    color: var(--color01);
+  }
 }
