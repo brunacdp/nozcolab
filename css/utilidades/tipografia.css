@@ -44,3 +44,36 @@
 .font2-xs-b {
   text-transform: uppercase;
 }
+
+@media (max-width: 850px) {
+  .titulo {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .titulo {
+    justify-content: start;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  .subtitulo {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  .paragrafo {
+    text-align: left;
+  }
+}
+@media (max-width: 450px) {
+  .titulo {
+    font-size: 2rem;
+  }
+  .subtitulo {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .paragrafo {
+    text-align: left;
+  }
+}

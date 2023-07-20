@@ -29,22 +29,15 @@
   .produtos-conteudo {
     padding-bottom: 60px;
   }
-  .produtos h1 {
-    font-size: 3rem;
-    /*     padding-left: 20px; */
-  }
   .produtos ul {
     gap: 20px 24px;
   }
-  @media (max-width: 750px) {
-    .produtos-conteudo {
-      text-align: left;
-      place-items: start;
-      padding-bottom: 16px;
-    }
-  }
-  .produtos h1 {
-    font-size: 2.5rem;
+}
+@media (max-width: 750px) {
+  .produtos-conteudo {
+    text-align: left;
+    place-items: start;
+    padding-bottom: 16px;
   }
 }
 @media (max-width: 550px) {
@@ -54,10 +47,5 @@
   }
   .produtos li {
     padding-bottom: 20px;
-  }
-}
-@media (max-width: 450px) {
-  .produtos h1 {
-    font-size: 2rem;
   }
 }

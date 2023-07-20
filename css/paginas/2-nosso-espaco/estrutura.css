@@ -49,13 +49,16 @@
   .estrutura-conteudo {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 60px;
-    gap: 0px 40px;
+    gap: 0px;
   }
   .estrutura-texto p {
     max-width: 75ch;
   }
   .estrutura-conteudo img {
+    justify-self: end;
     max-width: 90%;
+    height: 100%;
+    object-fit: cover;
   }
   .estrutura-bg {
     box-shadow: inset 0 198px var(--white), inset 0 -100px var(--white);
@@ -65,7 +68,6 @@
 @media (max-width: 850px) {
   .nosso-espaco {
     padding-bottom: 60px;
-    font-size: 3rem;
   }
   .estrutura-bg {
     background: none;
@@ -96,12 +98,10 @@
   .nosso-espaco {
     justify-content: start;
     padding-left: 20px;
-    font-size: 2.5rem;
     padding-bottom: 40px;
   }
   .estrutura-texto h2 {
     padding-bottom: 16px;
-    font-size: 2.5rem;
   }
 }
 
@@ -111,14 +111,5 @@
   }
   .estrutura-img p {
     padding-bottom: 20px;
-  }
-}
-
-@media (max-width: 450px) {
-  .nosso-espaco {
-    font-size: 2rem;
-  }
-  .estrutura-texto h2 {
-    font-size: 2rem;
   }
 }

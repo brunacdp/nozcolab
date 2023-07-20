@@ -35,7 +35,6 @@
 @media (max-width: 750px) {
   .eventos-conteudo h2 {
     padding-bottom: 16px;
-    font-size: 2.5rem;
   }
   @media (max-width: 550px) {
     .eventos-img {
@@ -44,10 +43,5 @@
     .eventos-img p {
       padding-bottom: 20px;
     }
-  }
-}
-@media (max-width: 450px) {
-  .eventos-conteudo h2 {
-    font-size: 2rem;
   }
 }

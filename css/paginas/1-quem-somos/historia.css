@@ -62,7 +62,6 @@
 @media (max-width: 850px) {
   .historia h1 {
     padding-bottom: 60px;
-    font-size: 3rem;
   }
   .historia h2 {
     padding-bottom: 16px;
@@ -79,7 +78,6 @@
 @media (max-width: 750px) {
   .historia h1 {
     justify-content: start;
-    font-size: 2.5rem;
     padding-bottom: 40px;
   }
   .historia-conteudo {
@@ -89,7 +87,6 @@
   }
   .historia h2 {
     padding-bottom: 16px;
-    font-size: 2.5rem;
   }
   .historia-texto span,
   .historia-texto p {
@@ -100,14 +97,5 @@
   }
   .historia-img-peq {
     display: grid;
-  }
-}
-
-@media (max-width: 450px) {
-  .historia h1 {
-    font-size: 2rem;
-  }
-  .historia h2 {
-    font-size: 2rem;
   }
 }

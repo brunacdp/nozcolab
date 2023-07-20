@@ -46,14 +46,18 @@
   }
   .midia-texto h2 {
     padding-bottom: 16px;
+    justify-content: start;
   }
   @media (max-width: 750px) {
-    .midia-texto h2 {
-      font-size: 2.5rem;
-    }
     .midia-box ul {
       gap: 24px 24px;
     }
+    .midia-texto {
+      place-items: start;
+    }
+.midia-texto p {
+      text-align: left;
+    }   
   }
 @media (max-width: 450px) {
   .midia-box ul {
@@ -67,7 +71,6 @@
     text-align: left;
   }
   .midia-texto p {
-    text-align: left;
     padding-bottom: 12px;
   }
 }
