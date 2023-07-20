@@ -69,13 +69,14 @@
 
 .frida h2,
 .dab h2 {
-  padding-bottom: 44px;
+  padding-bottom: 20px;
 }
 
 .frida p,
 .dab p {
-  max-width: 44ch;
+  max-width: 50ch;
   padding-bottom: 24px;
+  text-align: center;
 }
 
 .frida,
