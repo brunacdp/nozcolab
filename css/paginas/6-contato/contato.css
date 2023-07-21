@@ -1,0 +1,38 @@
+.contato {
+  place-items: center;
+  margin-bottom: 160px;
+}
+.contato h1 {
+  text-align: center;
+  padding-bottom: 160px;
+}
+
+.contato-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contato-local iframe {
+  padding-bottom: 20px;
+}
+
+.contato-dados p {
+  padding-bottom: 28px;
+  padding-left: 32px;
+}
+.contato-dados p:first-child {
+  background: url("../../../img/contato-localização.svg") no-repeat;
+}
+
+.contato-dados p:nth-child(2) {
+  background: url("../../../img/contato-relógio.svg") no-repeat;
+}
+
+.contato-dados p:nth-child(3) {
+  background: url("../../../img/contato-whatsapp.svg") no-repeat;
+}
+
+.contato-dados p:nth-child(4) {
+  background: url("../../../img/contato-email.svg") no-repeat;
+}
