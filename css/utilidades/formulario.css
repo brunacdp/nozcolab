@@ -18,7 +18,7 @@ form input:focus,
 form input[type="text"]:focus,
 form textarea:focus {
   outline: none;
-  border: 2px dashed var(--color06);
+  border: 3px dashed var(--color06);
 }
 
 form p {

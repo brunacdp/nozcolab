@@ -1,6 +1,6 @@
 .contato {
   place-items: center;
-  margin-bottom: 160px;
+  position: relative;
 }
 .contato h1 {
   text-align: center;
@@ -11,10 +11,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  padding-bottom: 80px;
 }
 
 .contato-local iframe {
   padding-bottom: 20px;
+  border-radius: 16px;
 }
 
 .contato-dados p {
@@ -35,4 +37,58 @@
 
 .contato-dados p:nth-child(4) {
   background: url("../../../img/contato-email.svg") no-repeat;
+}
+
+.contato-form p {
+  padding-bottom: 32px;
+}
+
+.contato-form .botao {
+  background-color: var(--color09);
+  color: var(--color01);
+}
+
+.contato-form .botao:hover {
+  background-color: var(--color12);
+  color: var(--color03);
+}
+
+.contato-redes {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-bottom: 120px;
+}
+
+.contato-visita {
+  display: grid;
+  place-content: center;
+}
+
+.contato-visita img {
+  margin-bottom: 120px;
+}
+.contato-visita p {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 1000px) {
+  .contato-conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding-bottom: 80px;
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 850px) {
+  .contato h1,
+  .contato-redes {
+    padding-bottom: 60px;
+  }
+  .contato-visita img {
+    margin-bottom: 60px;
+  }
 }
