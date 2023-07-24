@@ -38,14 +38,12 @@
   }
   .sobre-img-peq {
     display: grid;
+    margin-bottom: 12px;
   }
 }
 
 @media (max-width: 450px) {
   .sobre h1 {
     font-size: 2rem;
-  }
-  .introducao img {
-    display: none;
   }
 }

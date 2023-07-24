@@ -51,12 +51,13 @@
 }
 
 @media (max-width: 750px) {
+  .estrelas {
+    padding-bottom: 16px;
+    margin-top: 60px;
+  }
   .avaliacao h2 {
     font-size: 2rem;
-    padding-top: 80px;
-  }
-  .estrelas {
-    display: none;
+    padding-top: 0px;
   }
   .avaliacao .botao {
     margin-bottom: 80px;
@@ -68,10 +69,12 @@
     place-items: start;
   }
   .estrelas {
-    display: none;
+    padding-bottom: 12px;
+    grid-row: 2;
+    margin-top: 0px;
   }
   .avaliacao h2 {
-    margin-top: 16px;
+    padding-top: 60px;
     font: 400 2rem/1.25 "Pacifico", cursive;
     text-align: left;
   }

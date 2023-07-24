@@ -145,7 +145,6 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .frida p,
   .dab p {
     max-width: 75ch;
@@ -156,8 +155,8 @@
   .dab-conteudo {
     grid-column: auto;
   }
-  .frida .frida-foto,
-  .dab .dab-foto {
+  .frida-foto,
+  .dab-foto {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -180,7 +179,6 @@
   .dab-conteudo {
     place-items: start;
   }
-
   .frida h2,
   .dab h2 {
     padding-bottom: 16px;
@@ -190,12 +188,10 @@
     padding-bottom: 20px;
     text-align: left;
   }
-
   .frida .frida-logo,
   .dab .dab-logo {
     max-width: 25%;
   }
-
   .frida {
     margin-bottom: 60px;
   }
@@ -208,10 +204,6 @@
   .frida h2,
   .dab h2 {
     font-size: 2rem;
-  }
-  .frida .frida-foto,
-  .dab .dab-foto {
-    display: none;
   }
   .frida {
     margin-bottom: 16px;
