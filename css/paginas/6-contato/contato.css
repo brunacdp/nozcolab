@@ -43,6 +43,10 @@
   padding-bottom: 32px;
 }
 
+.contato-form input {
+  height: 48px;
+}
+
 .contato-form .botao {
   background-color: var(--color09);
   color: var(--color01);

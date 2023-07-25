@@ -41,6 +41,10 @@
   max-width: 580px;
 }
 
+.form-faca-parte input {
+  height: 48px;
+}
+
 .form-nome {
   display: grid;
   grid-template-columns: 1fr 1fr;

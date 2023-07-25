@@ -6,7 +6,7 @@ form label {
 form input:not(form input[type="radio"]),
 form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
-  height: 48px;
+  /*   height: 48px; */
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 20px;
