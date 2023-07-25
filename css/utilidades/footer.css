@@ -33,18 +33,20 @@ footer h3 {
   padding-bottom: 22px;
 }
 
+footer a,
+footer p,
 footer li {
   padding-bottom: 24px;
 }
 
-footer li a:hover,
-footer li a:active,
-footer li a:focus {
+footer a:hover,
+footer a:active,
+footer a:focus {
   color: var(--color08);
   font-weight: bold;
 }
 
-footer li a:visited {
+footer a:visited {
   color: var(--color08);
 }
 
