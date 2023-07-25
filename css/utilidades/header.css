@@ -49,30 +49,38 @@ header li a:visited {
 }
 
 @media (max-width: 750px) {
+  header {
+    display: grid;
+    padding-bottom: 40px;
+  }
   header a img {
     padding-bottom: 20px;
+    margin: 0 auto;
   }
   header ul {
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
     padding-left: 0px;
-  }
-  header {
-    padding-bottom: 40px;
   }
   header ul li {
     padding: 8px 12px;
     border-radius: 8px;
-    border: 0px;
-    background-color: var(--color01);
-  }
-  header ul {
-    justify-content: space-around;
+    border: 2px dashed var(--color06);
+    text-align: center;
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 500px) {
   header ul {
-    display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  header ul {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 }
