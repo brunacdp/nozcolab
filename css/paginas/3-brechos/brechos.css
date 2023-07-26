@@ -133,14 +133,16 @@
   .frida,
   .dab {
     grid-template-columns: 1fr;
-    margin-bottom: 32px;
     gap: 0px 0px;
+  }
+  .frida {
+    margin-bottom: 60px;
   }
   .dab {
     margin-bottom: 120px;
   }
-  .frida .frida-logo,
-  .dab .dab-logo {
+  .frida-logo,
+  .dab-logo {
     display: none;
   }
   .frida-conteudo,
@@ -152,11 +154,11 @@
   .dab p {
     max-width: 75ch;
   }
-  .dab-foto {
-    grid-area: auto;
-  }
   .dab-conteudo {
     grid-column: auto;
+  }
+  .dab-foto {
+    grid-area: auto;
   }
   .frida-foto,
   .dab-foto {
@@ -192,13 +194,6 @@
     padding-bottom: 20px;
     text-align: left;
   }
-  .frida .frida-logo,
-  .dab .dab-logo {
-    max-width: 25%;
-  }
-  .frida {
-    margin-bottom: 60px;
-  }
 }
 
 @media (max-width: 450px) {
@@ -208,8 +203,5 @@
   .frida h2,
   .dab h2 {
     font-size: 2rem;
-  }
-  .frida {
-    margin-bottom: 16px;
   }
 }
