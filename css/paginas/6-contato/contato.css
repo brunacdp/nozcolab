@@ -14,7 +14,7 @@
   padding-bottom: 80px;
 }
 
-.contato-local iframe {
+iframe {
   padding-bottom: 20px;
   border-radius: 16px;
 }
@@ -84,6 +84,10 @@
     gap: 40px;
     padding-bottom: 80px;
     max-width: 560px;
+    margin: 0 auto;
+  }
+  .contato-form p {
+    padding-bottom: 16px;
   }
 }
 
@@ -94,5 +98,31 @@
   }
   .contato-visita img {
     margin-bottom: 60px;
+  }
+}
+@media (max-width: 750px) {
+  .contato h1,
+  .contato-redes {
+    padding-bottom: 16px;
+  }
+  .contato-visita img {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 600px) {
+  iframe {
+    max-width: max-content;
+  }
+  .contato h1,
+  .contato-visita p {
+    text-align: left;
+  }
+  .contato-redes {
+    justify-content: start;
+  }
+}
+@media (max-width: 350px) {
+  iframe {
+    max-width: 90%;
   }
 }
