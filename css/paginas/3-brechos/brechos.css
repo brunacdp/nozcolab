@@ -139,6 +139,10 @@
   .dab {
     margin-bottom: 120px;
   }
+  .frida .frida-logo,
+  .dab .dab-logo {
+    display: none;
+  }
   .frida-conteudo,
   .dab-conteudo {
     padding-left: 20px;
