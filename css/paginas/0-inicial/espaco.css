@@ -75,7 +75,7 @@
   }
   .espaco-img-peq {
     display: grid;
-    padding-top: 12px;
+    padding-bottom: 12px;
     gap: 8px;
   }
 }
