@@ -51,10 +51,11 @@
   gap: 0px 20px;
 }
 
-.form-radio {
-  display: grid;
-  margin-bottom: 20px;
+form input .feiras,
+form input .loja {
+  padding-left: 8px;
 }
+
 .form-loja,
 .form-feiras {
   display: flex;

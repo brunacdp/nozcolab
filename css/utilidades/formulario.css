@@ -3,7 +3,7 @@ form label {
   padding-bottom: 4px;
 }
 
-form input:not(form input[type="radio"]),
+form input:not(form input[type="checkbox"]),
 form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   /*   height: 48px; */

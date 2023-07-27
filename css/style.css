@@ -28,6 +28,7 @@
 
 /* 5-faça-parte */
 @import "./paginas/5-faca-parte/faca-parte.css";
+@import "./paginas/5-faca-parte/checkbox.css";
 
 /* 6-contato */
 @import "./paginas/6-contato/contato.css";
