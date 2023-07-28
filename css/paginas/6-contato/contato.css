@@ -101,9 +101,11 @@ iframe {
   }
 }
 @media (max-width: 750px) {
-  .contato h1,
-  .contato-redes {
+  .contato h1 {
     padding-bottom: 16px;
+  }
+  .contato-redes {
+    padding-bottom: 24px;
   }
   .contato-visita img {
     margin-bottom: 16px;
@@ -119,6 +121,7 @@ iframe {
   }
   .contato-redes {
     justify-content: start;
+    gap: 16px;
   }
 }
 @media (max-width: 350px) {
