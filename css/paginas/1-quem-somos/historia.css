@@ -83,7 +83,6 @@
   .historia-conteudo {
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 60px;
   }
   .historia h2 {
     padding-bottom: 16px;
@@ -97,5 +96,11 @@
   }
   .historia-img-peq {
     display: grid;
+  }
+}
+
+@media (max-width: 450px) {
+  .historia-conteudo {
+    padding-bottom: 32px;
   }
 }

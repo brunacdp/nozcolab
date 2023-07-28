@@ -10,25 +10,6 @@
   place-items: center;
 }
 
-/* .missao-box::before {
-  content: "";
-  width: 4px;
-  height: 250px;
-  background-color: var(--color07);
-  position: absolute;
-  top: 1435px;
-  left: 630px;
-}
-.missao-box::after {
-  content: "";
-  width: 4px;
-  height: 250px;
-  background-color: var(--color07);
-  position: absolute;
-  top: 1435px;
-  left: 972px;
-} */
-
 .missao-box h2 {
   text-align: center;
   padding-top: 86px;
