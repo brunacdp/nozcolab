@@ -1,13 +1,13 @@
 .missao-box {
-  background-image: url("../../../img/missao-fundo.svg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  max-width: 1162px;
-  background-position: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 48px;
-  place-items: center;
+  display: flex;
+  flex-direction: row;
+  border: 4px dashed var(--color06);
+  border-radius: 16px;
+  background-color: var(--color03);
+  justify-content: center;
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  place-content: space-around;
 }
 
 .missao-box h2 {
@@ -24,10 +24,6 @@
 
 @media (max-width: 950px) {
   .missao-box {
-    background-image: none;
-    grid-template-columns: 1fr;
-    gap: 0px;
-    background: var(--color03);
     padding-top: 60px;
   }
   .missao-box h2 {
@@ -36,14 +32,27 @@
   }
   .missao-box p {
     padding-bottom: 60px;
-    max-width: 50ch;
     font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .missao-box {
+    flex-direction: column;
+    place-items: center;
+  }
+  .missao-box p {
+max-width: 50ch;
+padding-bottom: 60px;
   }
 }
 
 @media (max-width: 450px) {
   .missao-box {
     background-color: var(--white);
+    border: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .missao-box h2 {
     font-size: 2rem;

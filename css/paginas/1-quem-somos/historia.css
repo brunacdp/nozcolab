@@ -64,9 +64,6 @@
   .historia h2 {
     padding-bottom: 16px;
   }
-  .historia-conteudo {
-    padding-bottom: 60px;
-  }
   .historia-texto span {
     padding-bottom: 12px;
     font-size: 1rem;
@@ -81,6 +78,7 @@
   .historia-conteudo {
     display: grid;
     grid-template-columns: 1fr;
+      padding-bottom: 60px;
   }
   .historia h2 {
     padding-bottom: 16px;
