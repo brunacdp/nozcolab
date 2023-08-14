@@ -39,8 +39,6 @@
 
 .historia-img-peq {
   display: none;
-  padding-bottom: 8px;
-  max-width: 100%;
 }
 
 @media (max-width: 950px) {
@@ -91,11 +89,14 @@
   .historia-texto p {
     max-width: 75ch;
   }
-  .historia-img {
+  .historia-img,
+  .rita-e-aila {
     display: none;
   }
   .historia-img-peq {
     display: grid;
+    margin-bottom: 16px;
+    max-width: 100%;
   }
 }
 
