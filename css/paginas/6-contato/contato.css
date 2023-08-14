@@ -17,6 +17,7 @@
 iframe {
   padding-bottom: 20px;
   border-radius: 16px;
+  max-width: 100%;
 }
 
 .contato-dados p {
@@ -112,9 +113,6 @@ iframe {
   }
 }
 @media (max-width: 600px) {
-  iframe {
-    max-width: max-content;
-  }
   .contato h1,
   .contato-visita p {
     text-align: left;
@@ -122,10 +120,5 @@ iframe {
   .contato-redes {
     justify-content: start;
     gap: 16px;
-  }
-}
-@media (max-width: 350px) {
-  iframe {
-    max-width: 90%;
   }
 }
