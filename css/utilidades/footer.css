@@ -6,18 +6,13 @@
   justify-content: space-between;
   align-items: start;
   flex-wrap: wrap;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 60px;
   gap: 40px;
 }
 
-.footer-bg::before {
-  content: "";
-  display: block;
-  background-color: var(--color03);
-  width: 100%;
-  height: 4px;
-  margin-bottom: 60px;
+.footer-bg {
+  border-top: 2px solid var(--color03);
 }
 
 footer span {
