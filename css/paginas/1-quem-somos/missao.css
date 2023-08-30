@@ -6,6 +6,7 @@
   background-color: var(--color03);
   width: calc(100% - 40px);
   place-content: space-around;
+  padding-bottom: 80px;
 }
 
 .missao-box h2 {
@@ -16,14 +17,26 @@
 
 .missao-box p {
   max-width: 20ch;
-  text-align: center;
-  margin-bottom: 86px;
 }
+/* font: peso tamanho/AlturaDeLinha "família", similares; */
+.missao-texto {
+  font: 400 1.375rem/1.27 "Roboto", sans-serif;
+  text-align: center;
+}
+
 .visao-texto {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+  text-align: center;
   border-left: 4px solid var(--color07);
   border-right: 4px solid var(--color07);
   padding-left: 70px;
   padding-right: 70px;
+  height: 300px;
+}
+
+.valores-texto {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+  text-align: left;
 }
 
 @media (max-width: 1100px) {
@@ -41,31 +54,49 @@
 @media (max-width: 955px) {
   .missao-box {
     padding-top: 60px;
+    padding-bottom: 60px;
   }
   .missao-box h2 {
     padding-top: 0px;
     padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .missao-box p {
-    margin-bottom: 60px;
     font-size: 1.25rem;
-      border-left: 0px;
-      border-right: 0px;
-      padding-left: 20px;
-      padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+  .visao-texto {
+    border-left: 0px;
+    border-right: 0px;
+    height: auto;
+  }
+  .missao-box h2, .missao-texto, .visao-texto {
+    text-align: start;
+}
+.valores-texto {
+  place-content: start;
+}
 }
 
 @media (max-width: 750px) {
   .missao-box {
     flex-direction: column;
-    place-items: center;
+    place-items: start;
+    max-width: max-content;
+    gap: 32px;
+  }
+  .missao-box h2 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .missao-box p {
-max-width: 50ch;
-padding-left: 0px;
-padding-right: 0px;
+    max-width: 50ch;
+    padding-left: 0px;
+    padding-right: 0px;
   }
+
 }
 
 @media (max-width: 450px) {
@@ -74,14 +105,14 @@ padding-right: 0px;
     border: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    padding-top: 4px;
+    padding-bottom: 20px;
   }
   .missao-box h2 {
     font-size: 2rem;
-    text-align: left;
+    color: var(--color08);
   }
-  .missao-box p {
+  .missao-box p{
     font-size: 1rem;
-    text-align: left;
-    margin-bottom: 32px;
   }
 }

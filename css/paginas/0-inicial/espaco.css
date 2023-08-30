@@ -1,6 +1,6 @@
 .introducao-bg {
   background: var(--color03);
-  box-shadow: inset 0 520px var(--white), inset 0 -240px var(--white);
+  box-shadow: inset 0 520px var(--white), inset 0 -210px var(--white);
 }
 
 .espaco h2 {

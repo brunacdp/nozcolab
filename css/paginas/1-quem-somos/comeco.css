@@ -1,10 +1,10 @@
-.historia h1 {
+.comeco h1 {
   display: grid;
   justify-content: center;
   padding-bottom: 160px;
 }
 
-.historia-conteudo {
+.comeco-conteudo {
   display: grid;
   grid-template-columns: 1fr 2fr;
   display: flex;
@@ -13,85 +13,85 @@
   gap: 40px;
 }
 
-.historia-conteudo h2 {
+.comeco-conteudo h2 {
   padding-bottom: 32px;
 }
 
-.historia-texto {
+.comeco-texto {
   display: grid;
   align-content: center;
 }
 
-.historia-texto span {
+.comeco-texto span {
   display: block;
   max-width: 572px;
   padding-bottom: 24px;
 }
 
-.historia-texto p {
+.comeco-texto p {
   max-width: 572px;
+  padding-bottom: 24px;
 }
 
-.historia-img {
+.comeco-img {
   padding-bottom: 8px;
   max-width: 100%;
+  object-fit: cover;
+  object-position: top left;
+  height: 100%;
 }
 
-.historia-img-peq {
+.comeco-img-peq {
   display: none;
 }
 
 @media (max-width: 950px) {
-  .historia-conteudo {
+  .comeco-conteudo {
     gap: 20px;
   }
-  .historia-conteudo h2 {
+  .comeco-conteudo h2 {
     padding-bottom: 24px;
   }
-  .historia-texto span {
+  .comeco-texto span {
     padding-bottom: 24px;
-  }
-  .historia-img {
-    object-fit: cover;
-    height: 100%;
   }
 }
 
 @media (max-width: 850px) {
-  .historia h1 {
+  .comeco h1 {
     padding-bottom: 60px;
   }
-  .historia h2 {
+  .comeco h2 {
     padding-bottom: 16px;
   }
-  .historia-texto span {
+  .comeco-texto span {
     padding-bottom: 12px;
     font-size: 1rem;
   }
 }
 
 @media (max-width: 750px) {
-  .historia h1 {
+  .comeco h1 {
     justify-content: start;
     padding-bottom: 40px;
   }
-  .historia-conteudo {
+  .comeco-conteudo {
     display: grid;
     grid-template-columns: 1fr;
       padding-bottom: 60px;
   }
-  .historia h2 {
+  .comeco h2 {
     padding-bottom: 16px;
   }
-  .historia-texto span,
-  .historia-texto p {
+  .comeco-texto span,
+  .comeco-texto p {
     max-width: 75ch;
   }
-  .historia-img,
+  .comeco-img,
   .rita-e-aila {
     display: none;
   }
-  .historia-img-peq {
+  .comeco-img-peq {
     display: grid;
     margin-bottom: 16px;
     max-width: 100%;
@@ -99,7 +99,10 @@
 }
 
 @media (max-width: 450px) {
-  .historia-conteudo {
-    padding-bottom: 32px;
+  .comeco-conteudo {
+    padding-bottom: 48px;
+  }
+  .comeco-texto p {
+    padding-bottom: 12px;
   }
 }
