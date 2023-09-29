@@ -21,6 +21,10 @@
   max-width: 36ch;
 }
 
+.estrutura-texto p:not(:last-child) {
+padding-bottom: 24px;
+}
+
 .estrutura-conteudo img {
   max-width: 760px;
 }
