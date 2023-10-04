@@ -15,8 +15,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
 
+  <script>document.documentElement.className += ' js';</script>
+
+</head>
 <body>
 
   <header class="menu container">
@@ -36,10 +38,12 @@
   <main class="produtos container">
     <div class="produtos-conteudo">
       <h1 class="titulo">Produtos</h1>
-      <p class="font2-xs">Você já imaginou ter sua própria loja física? E se a sua loja fosse compartilhada com outros pequenos empreendedores? Entre em contato conosco, <a class="link" href="5-faca-parte.html">faça parte!</a></p>
-      <p class="font2-xs">Aqui todos os produtos são de marcas artesanais e autorais, nichos diferentes, cada um com a sua personalidade.</p>
+      <div class="js-scroll"> 
+        <p class="font2-xs">Você já imaginou ter sua própria loja física? E se a sua loja fosse compartilhada com outros pequenos empreendedores? Entre em contato conosco, <a class="link" href="5-faca-parte.html">faça parte!</a></p>
+        <p class="font2-xs">Aqui todos os produtos são de marcas artesanais e autorais, nichos diferentes, cada um com a sua personalidade.</p></div>
+
     </div>
-    <ul class="font2-xs">
+    <ul class="font2-xs js-scroll">
       <li><img src="./img/produtos1.jpg" width="560" height="370" alt="">
         Bijuterias</span>
       </li>
@@ -97,4 +101,5 @@
 
     <p>Noz Colab ® Todos os direitos reservados.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
