@@ -1,43 +1,47 @@
-header {
+.menu {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 20px;
-  padding-bottom: 140px;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 140px;
+  
 }
 
-header img {
-  justify-self: start;
-}
-
-header nav {
-  padding: 0px 0px;
-}
-
-header ul {
+.menu-ul {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   padding-left: 20px;
 }
 
-header li {
+.menu-ul a {
   display: inline-block;
-  position: relative;
   padding: 16px 0px;
+  position: relative;
 }
 
-header li a:hover,
-header li a:active,
-header li a:focus {
-  color: var(--color08);
-  font-weight: bold;
+.menu-ul a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  margin-top: 4px;
+  background: var(--color06);
+  transition: 0.3s;
+  position: absolute;
 }
 
-header li a:visited {
+.menu-ul a:hover:after,
+.menu-ul a.ativo::after {
+  width: 100%;
+}
+
+.menu-ul a:visited {
   color: var(--color08);
 }
+
+
 
 @media (max-width: 850px) {
   header {
@@ -49,21 +53,27 @@ header li a:visited {
 }
 
 @media (max-width: 750px) {
-  header {
+  .menu {
     display: grid;
     padding-bottom: 40px;
+    text-align: center;
   }
-  header a img {
+
+.menu a:after {
+display: none;
+}
+
+  .menu img {
     padding-bottom: 20px;
     margin: 0 auto;
   }
-  header ul {
+  .menu-ul {
     display: grid;
+    padding-left: 0px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
-    padding-left: 0px;
   }
-  header ul li {
+  .menu-ul a {
     padding: 8px 12px;
     border-radius: 8px;
     border: 2px dashed var(--color06);
@@ -72,14 +82,14 @@ header li a:visited {
 }
 
 @media (max-width: 500px) {
-  header ul {
+  .menu-ul {
     grid-template-columns: 1fr 1fr;
     gap: 12px;
   }
 }
 
 @media (max-width: 350px) {
-  header ul {
+  .menu-ul {
     grid-template-columns: 1fr;
     gap: 8px;
   }
