@@ -15,6 +15,8 @@
   <br>
   <br>
 
+<img width="951" alt="prototipo2" src="https://github.com/brunacdp/nozcolab/assets/126818470/97175a8c-0218-4e63-ac1a-e3e16dd8e9db">
+
 ## Tecnologias e ferramentas
 
 - [X] Figma
