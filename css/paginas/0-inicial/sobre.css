@@ -1,7 +1,3 @@
-.teste {
-  display: none;
-}
-
 .introducao {
   display: grid;
   grid-template-columns: 1fr 2fr;
