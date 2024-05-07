@@ -38,6 +38,7 @@
   .introducao-bg {
     background: none;
   }
+
   .espaco {
     background: var(--color03);
   }
@@ -47,6 +48,7 @@
   .espaco {
     background: none;
   }
+
   .espaco-img {
     padding-top: 40px;
   }
@@ -57,9 +59,11 @@
     padding-bottom: 16px;
     font-size: 2.5rem;
   }
+
   .espaco-img span {
     display: none;
   }
+
   .espaco-img {
     padding-top: 20px;
     gap: 20px;
@@ -70,12 +74,15 @@
   .espaco h2 {
     font-size: 2rem;
   }
+
   .espaco-img {
     display: none;
   }
+
   .espaco-img-peq {
     display: grid;
     padding-bottom: 12px;
     gap: 8px;
   }
+
 }
