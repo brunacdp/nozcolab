@@ -2,6 +2,7 @@
   place-items: center;
   position: relative;
 }
+
 .contato h1 {
   text-align: center;
   padding-bottom: 160px;
@@ -24,20 +25,21 @@ iframe {
   padding-bottom: 28px;
   padding-left: 32px;
 }
+
 .contato-dados p:first-child {
-  background: url("../../../img/contato-localização.svg") no-repeat;
+  background: url("../../../img/6-contato/contato-localização.svg") no-repeat;
 }
 
 .contato-dados p:nth-child(2) {
-  background: url("../../../img/contato-relógio.svg") no-repeat;
+  background: url("../../../img/6-contato/contato-relógio.svg") no-repeat;
 }
 
 .contato-dados p:nth-child(3) {
-  background: url("../../../img/contato-whatsapp.svg") no-repeat;
+  background: url("../../../img/6-contato/contato-whatsapp.svg") no-repeat;
 }
 
 .contato-dados p:nth-child(4) {
-  background: url("../../../img/contato-email.svg") no-repeat;
+  background: url("../../../img/6-contato/contato-email.svg") no-repeat;
 }
 
 .contato-form p {
@@ -73,6 +75,7 @@ iframe {
 .contato-visita img {
   margin-bottom: 120px;
 }
+
 .contato-visita p {
   text-align: center;
   padding-bottom: 120px;
@@ -87,36 +90,45 @@ iframe {
     max-width: 560px;
     margin: 0 auto;
   }
+
   .contato-form p {
     padding-bottom: 16px;
   }
 }
 
 @media (max-width: 850px) {
+
   .contato h1,
   .contato-redes {
     padding-bottom: 60px;
   }
+
   .contato-visita img {
     margin-bottom: 60px;
   }
 }
+
 @media (max-width: 750px) {
   .contato h1 {
     padding-bottom: 16px;
   }
+
   .contato-redes {
     padding-bottom: 24px;
   }
+
   .contato-visita img {
     margin-bottom: 16px;
   }
 }
+
 @media (max-width: 600px) {
+
   .contato h1,
   .contato-visita p {
     text-align: left;
   }
+
   .contato-redes {
     justify-content: start;
     gap: 16px;
