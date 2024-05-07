@@ -5,8 +5,8 @@
   border: 4px dashed var(--color06);
   border-radius: 16px;
   max-width: fit-content;
-margin-top: 120px;
-margin-bottom: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .estrelas {
@@ -43,13 +43,16 @@ margin-bottom: 120px;
   .avaliacao {
     background-image: none;
   }
+
   .estrelas {
     margin-top: 40px;
   }
+
   .avaliacao h2 {
     padding-left: 72px;
     padding-right: 72px;
   }
+
   .avaliacao .botao {
     margin-bottom: 40px;
   }
@@ -60,10 +63,12 @@ margin-bottom: 120px;
     padding-bottom: 16px;
     margin-top: 32px;
   }
+
   .avaliacao h2 {
     font-size: 2rem;
     padding-top: 0px;
   }
+
   .avaliacao .botao {
     margin-bottom: 32px;
   }
@@ -71,25 +76,29 @@ margin-bottom: 120px;
 
 @media (max-width: 450px) {
   .avaliacao {
-  border: 0px;
-  align-items: start;
+    border: 0px;
+    align-items: start;
     margin-top: 60px;
   }
+
   .estrelas {
     padding-bottom: 12px;
     grid-row: 2;
     margin-top: 0px;
   }
+
   .avaliacao h2 {
     padding-top: 0px;
     padding-left: 0px;
     font: 400 2rem/1.25 "Pacifico", cursive;
     text-align: left;
   }
+
   .avaliacao p {
     text-align: left;
     padding-bottom: 8px;
   }
+
   .avaliacao .botao {
     padding: 0px;
     background-color: inherit;
