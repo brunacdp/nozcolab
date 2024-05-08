@@ -5,7 +5,7 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 140px;
-  
+
 }
 
 .menu-ul {
@@ -47,6 +47,7 @@
   header {
     padding-bottom: 60px;
   }
+
   .menu {
     place-content: center;
   }
@@ -59,20 +60,22 @@
     text-align: center;
   }
 
-.menu a:after {
-display: none;
-}
+  .menu a:after {
+    display: none;
+  }
 
   .menu img {
     padding-bottom: 20px;
     margin: 0 auto;
   }
+
   .menu-ul {
     display: grid;
     padding-left: 0px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
   }
+
   .menu-ul a {
     padding: 8px 12px;
     border-radius: 8px;
@@ -82,10 +85,14 @@ display: none;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .menu-ul {
     grid-template-columns: 1fr 1fr;
     gap: 12px;
+  }
+
+  .menu-ul a {
+    width: 130px;
   }
 }
 
