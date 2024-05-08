@@ -78,6 +78,7 @@ display: none;
     border-radius: 8px;
     border: 2px dashed var(--color06);
     text-align: center;
+    width: 130px;
   }
 }
 
