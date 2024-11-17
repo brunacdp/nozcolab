@@ -42,6 +42,19 @@ iframe {
   background: url("../../../img/6-contato/contato-email.svg") no-repeat;
 }
 
+.contato-dados p:nth-child(5) {
+  background: url("../../../img/6-contato/contato-whatsapp.svg") no-repeat;
+}
+
+.contato-dados p:nth-child(6) {
+  background: url("../../../img/6-contato/contato-whatsapp.svg") no-repeat;
+}
+
+.contato-dados a:hover {
+  color: var(--color08);
+  font-weight: bold;
+}
+
 .contato-form p {
   padding-bottom: 32px;
 }
@@ -61,10 +74,17 @@ iframe {
 }
 
 .contato-redes {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
   padding-bottom: 120px;
+}
+
+.contato-redes p {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.contato-redes .icones {
+  display: block;
+  gap: 32px;
 }
 
 .contato-visita {
