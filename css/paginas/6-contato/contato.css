@@ -74,6 +74,9 @@ iframe {
 }
 
 .contato-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-bottom: 120px;
 }
 
@@ -82,8 +85,8 @@ iframe {
   padding-bottom: 80px;
 }
 
-.contato-redes .icones {
-  display: block;
+.icones {
+  display: flex;
   gap: 32px;
 }
 
