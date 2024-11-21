@@ -8,6 +8,10 @@
 
 }
 
+.menu img {
+  padding-top: 20px;
+}
+
 .menu-ul {
   display: flex;
   flex-wrap: wrap;
@@ -41,22 +45,21 @@
   color: var(--color08);
 }
 
-
-
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   header {
     padding-bottom: 60px;
   }
 
   .menu {
     place-content: center;
+    padding-bottom: 40px;
   }
 }
 
 @media (max-width: 750px) {
   .menu {
     display: grid;
-    padding-bottom: 40px;
+
     text-align: center;
   }
 
@@ -67,6 +70,9 @@
   .menu img {
     padding-bottom: 20px;
     margin: 0 auto;
+    object-fit: scale-down;
+    height: 50%;
+    width: 50%;
   }
 
   .menu-ul {

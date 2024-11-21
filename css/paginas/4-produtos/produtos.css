@@ -17,12 +17,17 @@
   gap: 24px;
 }
 
+.pagamento {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
 .produtos ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px 48px;
   margin: 0 auto;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 .produtos li img {
@@ -33,10 +38,12 @@
   .produtos-conteudo {
     padding-bottom: 60px;
   }
+
   .produtos ul {
     gap: 20px 24px;
   }
 }
+
 @media (max-width: 750px) {
   .produtos-conteudo {
     text-align: left;
@@ -44,12 +51,20 @@
     padding-bottom: 16px;
   }
 }
+
 @media (max-width: 550px) {
   .produtos ul {
     grid-template-columns: 1fr;
     gap: 0px;
+    padding-bottom: 24px;
   }
+
   .produtos li {
     padding-bottom: 20px;
+  }
+
+  .pagamento {
+    text-align: left;
+    padding-bottom: 120px;
   }
 }

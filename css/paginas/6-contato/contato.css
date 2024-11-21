@@ -43,11 +43,11 @@ iframe {
 }
 
 .contato-dados p:nth-child(5) {
-  background: url("../../../img/6-contato/contato-whatsapp.svg") no-repeat;
+  background: url("../../../img/6-contato/contato-grupo.svg") no-repeat;
 }
 
 .contato-dados p:nth-child(6) {
-  background: url("../../../img/6-contato/contato-whatsapp.svg") no-repeat;
+  background: url("../../../img/6-contato/contato-catalogo.svg") no-repeat;
 }
 
 .contato-dados a:hover {
@@ -136,6 +136,10 @@ iframe {
     padding-bottom: 16px;
   }
 
+  .contato-redes p {
+    padding-bottom: 24px;
+  }
+
   .contato-redes {
     padding-bottom: 24px;
   }
@@ -148,6 +152,7 @@ iframe {
 @media (max-width: 600px) {
 
   .contato h1,
+  .contato-redes p,
   .contato-visita p {
     text-align: left;
   }
