@@ -1,5 +1,5 @@
-![noz-inicial](https://github.com/brunacdp/nozcolab/assets/126818470/ba47973e-277e-4b7a-ae47-b9354124cb02)
-<hr>
+![noz-inicial](https://github.com/user-attachments/assets/9299061b-1a9d-452f-9dd5-79d307cb38c1)
+
 
 # 🌰 Noz Colab 
 
