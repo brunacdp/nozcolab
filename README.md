@@ -1,7 +1,7 @@
 ![noz-inicial](https://github.com/user-attachments/assets/9299061b-1a9d-452f-9dd5-79d307cb38c1)
 
 
-# 🌰 Noz Colab 
+# 🌰 :chipmunk: Noz Colab 
 
   Projeto em andamento: site corporativo para loja física.
   
