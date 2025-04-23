@@ -77,6 +77,10 @@
             </div>
           </div>
           <div>
+            <label for="contato-email">E-mail</label>
+            <input type="text" id="contato-email" name="email" placeholder="seuemail@exemplo.com">
+          </div>
+          <div>
             <label for="empresa">Nome da empresa</label>
             <input type="text" id="empresa" name="empresa" placeholder="">
           </div>
@@ -87,11 +91,11 @@
 
           <p>Qual seu interesse aqui na NOZ Colab?</p>
           <label class="form-checkbox">Fazer parte da LOJA
-            <input type="checkbox">
+            <input type="checkbox" name="interesse-em" value="loja" id="loja">
             <span class="checkmark"></span>
           </label>
           <label class="form-checkbox">Participar de FEIRAS
-            <input type="checkbox">
+            <input type="checkbox" name="interesse_em" value="feiras" id="feiras">
             <span class="checkmark"></span>
           </label>
 
@@ -105,11 +109,12 @@
           </div>
           <div>
             <label for="resp-loja">Possui loja física? Se sim, onde?</label>
-            <textarea rows="2" id="resp-loja" name="resp-loja" placeholder="Se não, deixar em branco."></textarea>
+            <textarea rows="2" id="resp-loja" name="resp-loja-fisica"
+              placeholder="Se não, deixar em branco."></textarea>
           </div>
           <div>
             <label for="resp-colaborativa">Já participou de alguma loja “COLABORATIVA”? Se sim, em qual?</label>
-            <textarea rows="2" id="resp-colaborativa" name="resp-colaborativa"
+            <textarea rows="2" id="resp-colaborativa" name="resp-loja-colaborativa"
               placeholder="Se não, deixar em branco."></textarea>
           </div>
           <div>
@@ -163,4 +168,6 @@
     <p>Noz Colab ® Todos os direitos reservados.</p>
   </footer>
   <script src="script.js"></script>
+  <script src="formulario.js"></script>
+
 </body>
