@@ -9,7 +9,7 @@
 
   :heavy_check_mark: Nele foram aplicados: HTML semântico, formulários, responsividade, media queries, grid, flexbox, variáveis, entre outros.
 
-  :link: Acesse o projeto: https://brunacdp.github.io/nozcolab/
+  :link: Acesse o site: https://nozcolab.com.br
   
   :link: Confira os detalhes do design: https://www.behance.net/gallery/187287909/Site-Noz-Colab
   <br>
